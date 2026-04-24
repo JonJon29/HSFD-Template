@@ -1,5 +1,22 @@
 # Hochschule Fulda Typst Package
-## Installation 
+
+## Installation von Typst
+### MacOS
+```zsh 
+brew install typst
+```
+
+### Linux
+```bash
+sudo snap install typst
+```
+
+### Windows
+```bash
+winget install --id Typst.Typst
+```
+
+## Installation des Package
 Für die Nutzung des Packages muss es in dem ```package``` ordner für Typst liegen. Diesen findet man mit: 
 ```zsh 
 typst info
@@ -16,3 +33,11 @@ Zu erstellung eines Templates steht dann folgender Befehl zur Verfügung:
 ```zsh 
 typst init @local/HochschulTemplate
 ```
+
+## PDF generieren
+```zsh 
+typst c main.typ main.pdf
+```
+
+### intellij Konfiguration
+![intellij-config.png](documentation/intellij-config.png)

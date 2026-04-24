@@ -1,6 +1,6 @@
 #import "titlePage.typ": titlePage
 
-#let hochschulTemplate(
+#let hsfdTemplate(
 author: "",
 shortTitle: "",
 longTitle: "",

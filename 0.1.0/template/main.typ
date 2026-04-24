@@ -1,5 +1,5 @@
-#import "@local/HochschulTemplate:0.1.0": hochschulTemplate
-#show: hochschulTemplate.with(
+#import "@local/HSFD-Template:0.1.0": hsfdTemplate
+#show: hsfdTemplate.with(
     author: "AUTHOR",
     shortTitle: lorem(10),
     longTitle: lorem(50),
