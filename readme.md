@@ -31,7 +31,7 @@ Falls der Ordner noch nicht existiert, muss er erstellt werden.
 ## Nutzung 
 Zu erstellung eines Templates steht dann folgender Befehl zur Verfügung: 
 ```zsh 
-typst init @local/HochschulTemplate
+typst init @local/HSFD-Template
 ```
 
 ## PDF generieren
