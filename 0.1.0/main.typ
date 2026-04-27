@@ -1,12 +1,5 @@
-#import "titlePage.typ": titlePage
-
 #let hsfdTemplate(
-author: "",
-shortTitle: "",
-longTitle: "",
-description: "",
-courseOfStudy: "",
-date: "",
+titlePage: none,
 bibliography: none,
 body
 ) = {
@@ -27,12 +20,18 @@ show heading: set block(
 )
 
 
-titlePage(author, shortTitle, longTitle, description, courseOfStudy, date)
-
+titlePage
 pagebreak()
 
 outline(title: "Inhatsverzeichnis")
 pagebreak()
+
+outline(
+  title: [Abbildungsverzeichnis],
+  target: figure,
+)
+pagebreak()
+
 set page(numbering: "1")
 counter(page).update(1)
 
