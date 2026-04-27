@@ -1,12 +1,13 @@
 #import "@local/HSFD-Template:0.1.0": hsfdTemplate
+#import "titlePage.typ": titlePage
 #show: hsfdTemplate.with(
     titlePage: titlePage(
-        author: "AUTHOR",
-        shortTitle: lorem(10),
-        longTitle: lorem(50),
-        description: lorem(3),
-        courseOfStudy: "Angewandte Informatik",
-        date: "xx.xx.xxxx"
+        "AUTHOR",
+        lorem(10),
+        lorem(50),
+        lorem(3),
+        "Angewandte Informatik",
+        "xx.xx.xxxx"
     ),
     bibliography: bibliography("bibliography.bib", title: "Quellenverzeichnis")
 )
