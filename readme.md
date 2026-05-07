@@ -26,7 +26,9 @@ Standard mäßig sollte dieser hier zu finden sein:
 - Linux: **$XDG_CACHE_HOME** oder **~/.cache**
 - Windows: **%LOCALAPPDATA%**
 
-Falls der Ordner noch nicht existiert, muss er erstellt werden.
+In dem ```package``` Ordner muss das Package in einem Ordner namens ```local``` liegen. 
+> [!IMPORTANT]
+> Falls der Ordner noch nicht existiert, muss er erstellt werden.
 
 ## Nutzung 
 Zu erstellung eines Templates steht dann folgender Befehl zur Verfügung: 
